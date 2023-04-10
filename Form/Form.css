@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://megafrases.com.br/wp-content/uploads/2023/02/3-papel-de-parede-1920x1080-celular-4k-full-hd.jpg);
+}  
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #025E73;
+    padding: 15px;
+    border-radius: 15px; 
+}  
+fieldset{
+    border: 3px solid;
+} 
+legend{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    background-color: #011F26;
+}
+
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    
+}
+#data{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+.butao{
+    background-color: #011F26  ;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
